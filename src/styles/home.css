@@ -3,6 +3,8 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  background-image: url('../public/home-bg.jpeg');
+  background-position: center;
 }
 
 .mainBox {
@@ -11,12 +13,16 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   padding: 20px 20px 20px 20px;
-  border: solid 2px black;
+  /* border: solid 2px black; */
   background-color: #fefefe;
   border-radius: 10px;
-  width: 50%;
+  width: 50vw;
   height: 50%;
   text-align: center;
+  box-shadow: 0px 3px 15px rgb(196, 195, 195);
+  /* transform: translate(-50%, -50%); */
+  transform: translateY(10%);
+
 }
 
 .socialMedia {
@@ -40,6 +46,10 @@ body {
   background-color: white;
 }
 
+#github:active {
+  background-color: rgb(223, 221, 221);
+}
+
 #instagram {
   background: #833ab4;
   background: linear-gradient(
@@ -55,6 +65,10 @@ body {
 #instagram:hover {
   color: #f71559;
   background: white;
+}
+
+#instagram:active {
+  background: rgb(223, 221, 221);
 }
 
 #aboutMe {
