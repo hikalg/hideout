@@ -3,7 +3,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  background-image: url('../public/home-bg.jpeg');
+  background-image: url('../media/images/home-bg.jpeg');
   background-position: center;
 }
 
