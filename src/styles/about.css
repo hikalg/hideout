@@ -1,0 +1,23 @@
+.myself {
+  /* display: flex; */
+  width: 30%;
+  height: 20%;
+  /* scale: 60%; */
+  /* padding: 1px 1px 1px 1px; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+p {
+  font-size: large;
+}
+
+.factList {
+  font-size: large;
+  text-align: left;
+  /* list-style: disc; */
+}
+
+.factList li {
+  margin: 10px 10px 10px 10px;
+}
