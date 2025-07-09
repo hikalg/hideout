@@ -1,0 +1,68 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.mainBox {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+  border: solid 2px black;
+  background-color: #fefefe;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.socialMedia {
+  outline: solid 1px white;
+  outline-offset: -2px;
+  font-weight: 800;
+}
+
+.transition-quick {
+  transition: color 0.25s, background-color 0.25s, background 0.25s;
+}
+
+#github {
+  color: white;
+  background-color: black;
+  /* transition: color 0.25s, background-color 0.25s; */
+}
+
+#github:hover {
+  color: black;
+  background-color: white;
+}
+
+#instagram {
+  background: #833ab4;
+  background: linear-gradient(
+    45deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+  /* transition: color 0.25s, background-color 0.25s; */
+}
+
+#instagram:hover {
+  color: #f71559;
+  background: white;
+}
+
+#aboutMe {
+  background: rgb(118, 221, 255);
+  font-weight: 800;
+}
+
+#aboutMe:hover {
+  background: white;
+  color: rgb(63, 139, 165);
+}
